@@ -6,7 +6,7 @@ pibooth-extra-lights
 |PythonVersions| |PypiPackage| |Downloads|
 
 ``pibooth-extra-lights`` is a plugin for the `pibooth <https://github.com/pibooth/pibooth>`_
-application. It add 3 extra lights managements:
+application. It add 3 extra lights:
 
 - **startup**: light on at ``pibooth`` startup
 - **sequence**: light on during the entire capture sequence
@@ -17,7 +17,7 @@ Install
 
 ::
 
-     $ sudo pip3 install pibooth-extra-lights
+     $ pip3 install pibooth-extra-lights
 
 
 Configuration
