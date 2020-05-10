@@ -52,6 +52,16 @@ with features added by this plugin:
    :align: center
    :alt: State sequence
 
+Circuit diagram
+---------------
+
+Here is the diagram for hardware connections.
+
+.. image:: https://raw.githubusercontent.com/pibooth/pibooth-extra-lights/master/templates/sketch.png
+   :align: center
+   :alt: Electronic sketch
+
+
 .. |PythonVersions| image:: https://img.shields.io/badge/python-2.7+ / 3.6+-red.svg
    :target: https://www.python.org/downloads
    :alt: Python 2.7+/3.6+
