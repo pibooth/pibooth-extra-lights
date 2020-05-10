@@ -6,7 +6,9 @@ pibooth-extra-lights
 |PythonVersions| |PypiPackage| |Downloads|
 
 ``pibooth-extra-lights`` is a plugin for the `pibooth <https://github.com/pibooth/pibooth>`_
-application. It add 3 extra lights:
+application.
+
+It add 3 extra lights:
 
 - **startup**: light on at ``pibooth`` startup
 - **sequence**: light on during the entire capture sequence
@@ -24,7 +26,7 @@ Configuration
 -------------
 
 This is the extra configuration options that can be added in the ``pibooth``
-configuration (run ``pibooth --config`` to open it):
+configuration (`physical pin numbering <https://pinout.xyz>`_ is used):
 
 .. code-block:: ini
 
@@ -39,8 +41,13 @@ configuration (run ``pibooth --config`` to open it):
     # Physical GPIO OUT pin to light a LED when the capture is taken
     flash_led_pin = 33
 
+.. note::  Edit the configuration by running the command ``pibooth --config``.
+
 States description
 ------------------
+
+Here is the  `pibooth <https://github.com/pibooth/pibooth#states-and-lights-management>`
+state sequence with features added by this plugin::
 
 .. image:: https://raw.githubusercontent.com/pibooth/pibooth-extra-lights/master/templates/state_sequence.png
    :align: center
@@ -48,6 +55,8 @@ States description
 
 Circuit diagram
 ---------------
+
+Here is the diagram for hardware connections.
 
 .. image:: https://raw.githubusercontent.com/pibooth/pibooth-extra-lights/master/templates/sketch.png
    :align: center
