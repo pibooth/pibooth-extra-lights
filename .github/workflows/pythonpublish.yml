@@ -27,7 +27,7 @@ jobs:
 
     - name: Install pibooth
       run: |
-        sudo apt-get install libsdl1.2-dbg
+        sudo apt-get install libsdl1.2-dev
         pip install pibooth
 
     - name: Build and publish
