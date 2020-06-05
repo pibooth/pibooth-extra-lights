@@ -5,7 +5,7 @@ pibooth-extra-lights
 
 |PythonVersions| |PypiPackage| |Downloads|
 
-``pibooth-extra-ligths`` is a plugin for the `pibooth <https://github.com/pibooth/pibooth>`_
+``pibooth-extra-lights`` is a plugin for the `pibooth <https://github.com/pibooth/pibooth>`_
 application.
 
 It adds 3 extra lights:
