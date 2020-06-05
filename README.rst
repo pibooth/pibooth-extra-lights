@@ -5,14 +5,14 @@ pibooth-extra-lights
 
 |PythonVersions| |PypiPackage| |Downloads|
 
-``pibooth-extra-lighs`` is a plugin for the `pibooth <https://github.com/pibooth/pibooth>`_
+``pibooth-extra-ligths`` is a plugin for the `pibooth <https://github.com/pibooth/pibooth>`_
 application.
 
 It adds 3 extra lights:
 
 - **startup**  : light on at ``pibooth`` startup
 - **sequence** : light on during the entire capture sequence
-- **flash**    : light on during the capture is taken
+- **flash**    : light on when the capture is taken
 
 Install
 -------
