@@ -5,8 +5,7 @@ pibooth-extra-lights
 
 |PythonVersions| |PypiPackage| |Downloads|
 
-``pibooth-extra-lighs`` is a plugin for the `pibooth <https://github.com/pibooth/pibooth>`_
-application.
+``pibooth-extra-lighs`` is a plugin for the `pibooth`_ application.
 
 It adds 3 extra lights:
 
@@ -24,7 +23,7 @@ Install
 Configuration
 -------------
 
-This is the extra configuration options that can be added in the ``pibooth``
+Here below the extra configuration options that can be added in the `pibooth`_
 configuration (`physical pin numbering <https://pinout.xyz>`_ is used):
 
 .. code-block:: ini
@@ -46,7 +45,7 @@ States description
 ------------------
 
 Here is the `pibooth state sequence <https://github.com/pibooth/pibooth#states-and-lights-management>`_
-with features added by this plugin:
+updated with the lights activated by this plugin:
 
 .. image:: https://raw.githubusercontent.com/pibooth/pibooth-extra-lights/master/templates/state_sequence.png
    :align: center
@@ -61,6 +60,7 @@ Here is the diagram for hardware connections.
    :align: center
    :alt: Electronic sketch
 
+.. _`pibooth`: https://pypi.org/project/pibooth
 
 .. |PythonVersions| image:: https://img.shields.io/badge/python-2.7+ / 3.6+-red.svg
    :target: https://www.python.org/downloads
