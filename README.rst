@@ -23,8 +23,10 @@ Install
 Configuration
 -------------
 
-Here below the extra configuration options that can be added in the `pibooth`_
-configuration (`physical pin numbering <https://pinout.xyz>`_ is used):
+Here below the new configuration options available in the `pibooth`_ configuration.
+**The keys and their default values are automatically added to your configuration after first** `pibooth`_ **restart.**
+
+The `physical pin numbering <https://pinout.xyz>`_ is used.
 
 .. code-block:: ini
 
@@ -59,6 +61,8 @@ Here is the diagram for hardware connections.
 .. image:: https://raw.githubusercontent.com/pibooth/pibooth-extra-lights/master/templates/sketch.png
    :align: center
    :alt: Electronic sketch
+
+.. --- Links ------------------------------------------------------------------
 
 .. _`pibooth`: https://pypi.org/project/pibooth
 
