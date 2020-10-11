@@ -32,13 +32,13 @@ The `physical pin numbering <https://pinout.xyz>`_ is used.
 
     [CONTROLS]
 
-    # Physical GPIO OUT pin to light a LED at pibooth startup
+    # Physical GPIO OUT pin to light a LED at pibooth startup (list of pins accepted)
     startup_led_pin = 29
 
-    # Physical GPIO OUT pin to light a LED during the entire capture sequence
+    # Physical GPIO OUT pin to light a LED during the entire capture sequence (list of pins accepted)
     preview_led_pin = 31
 
-    # Physical GPIO OUT pin to light a LED when the capture is taken
+    # Physical GPIO OUT pin to light a LED when the capture is taken (list of pins accepted)
     flash_led_pin = 33
 
 .. note:: Edit the configuration by running the command ``pibooth --config``.
