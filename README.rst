@@ -46,7 +46,7 @@ The `physical pin numbering <https://pinout.xyz>`_ is used.
 States description
 ------------------
 
-Here is the `pibooth state sequence <https://github.com/pibooth/pibooth#states-and-lights-management>`_
+Here is the `pibooth state sequence <https://pibooth.readthedocs.io/en/latest/sources/plugins/plugins.html#influencing-states>`_
 updated with the lights activated by this plugin:
 
 .. image:: https://raw.githubusercontent.com/pibooth/pibooth-extra-lights/master/docs/images/state_sequence.png
