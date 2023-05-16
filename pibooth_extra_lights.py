@@ -45,7 +45,10 @@ def pibooth_startup(app, cfg):
                              for pin in cfg.gettuple('CONTROLS', 'flash_led_pin', int)),
                              active_high=cfg.getboolean('CONTROLS', 'flash_led_active_high'))
 
+    # Initial state
     app.led_startup.on()
+    app.led_sequence.off()
+    app.led_flash.off()
 
 
 @pibooth.hookimpl
