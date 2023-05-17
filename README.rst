@@ -35,11 +35,20 @@ The `physical pin numbering <https://pinout.xyz>`_ is used.
     # Physical GPIO OUT pin to light a LED at pibooth startup (list of pins accepted)
     startup_led_pin = 29
 
+    # If True, startup LED is lighting by setting pin(s) to HIGH else by setting to LOW
+    startup_led_active_high = True
+
     # Physical GPIO OUT pin to light a LED during the entire capture sequence (list of pins accepted)
     preview_led_pin = 31
 
+    # If True, preview LED is lighting by setting pin(s) to HIGH else by setting to LOW
+    preview_led_active_high = True
+
     # Physical GPIO OUT pin to light a LED when the capture is taken (list of pins accepted)
     flash_led_pin = 33
+
+    # If True, flash LED is lighting by setting pin(s) to HIGH else by setting to LOW
+    flash_led_active_high = True
 
 .. note:: Edit the configuration by running the command ``pibooth --config``.
 
