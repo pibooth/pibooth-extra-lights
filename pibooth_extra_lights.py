@@ -15,15 +15,15 @@ def pibooth_configure(cfg):
     cfg.add_option('CONTROLS', 'startup_led_pin', 29,
                    "Physical GPIO OUT pin to light a LED at pibooth startup (list of pins accepted)")
     cfg.add_option('CONTROLS', 'startup_led_active_high', True,
-                   "If True, LED is lighting by setting GPIO OUT pin(s) to HIGH else by setting them to LOW")
+                   "If True, startup LED is lighting by setting pin(s) to HIGH else by setting to LOW")
     cfg.add_option('CONTROLS', 'preview_led_pin', 31,
                    "Physical GPIO OUT pin to light a LED during the entire capture sequence (list of pins accepted)")
     cfg.add_option('CONTROLS', 'preview_led_active_high', True,
-                   "If True, LED is lighting by setting GPIO OUT pin(s) to HIGH else by setting them to LOW")
+                   "If True, preview LED is lighting by setting pin(s) to HIGH else by setting to LOW")
     cfg.add_option('CONTROLS', 'flash_led_pin', 33,
                    "Physical GPIO OUT pin to light a LED when the capture is taken (list of pins accepted)")
     cfg.add_option('CONTROLS', 'flash_led_active_high', True,
-                   "If True, LED is lighting by setting GPIO OUT pin(s) to HIGH else by setting them to LOW")
+                   "If True, flash LED is lighting by setting pin(s) to HIGH else by setting to LOW")
 
 
 @pibooth.hookimpl
